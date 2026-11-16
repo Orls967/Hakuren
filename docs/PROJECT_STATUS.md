@@ -19,7 +19,7 @@ Markdown files under docs/: 31. Per-document status counts (from metadata rows):
 | Stage | Scope | Status | Commit |
 |---|---|---|---|
 | 0 | Preflight, standard, tooling, registers | Complete (stage 0 only) | 09d4fbf |
-| 1 | Product foundation | Draft (gate passed) | - |
+| 1 | Product foundation | Draft (gate passed); pushed | d88fdd2 |
 | 2 | Domain research | Not started | - |
 | 3 | System engineering | Not started | - |
 | 4 | 3D and experience | Not started | - |
