@@ -41,7 +41,7 @@ Forbidden everywhere: nuclear weapon design or pathways, weapons-grade material 
 - Do not edit the integration-managed files (section 7) or files owned by other authors. Do not run any git command. Do not create files outside `docs/`, `schemas/`, `tools/` unless instructed.
 
 ## 5. Identifiers
-- A definition is a table row whose first cell is exactly the ID. Any other textual mention is a reference and must resolve to a definition that already exists or that you define. Never write ID ranges or wildcards (`HAK-SIM-001 to 010` is forbidden; list IDs individually or reference a table).
+- A definition is a table row whose first cell is exactly the ID. Any other textual mention is a reference and must resolve to a definition that already exists or that you define. Never write ID ranges or wildcards (`HAK-SIM-xxx to yyy` is forbidden; list IDs individually or reference a table).
 - Prefixes: `HAK-PRD, FR, NFR, DOM, SYS, 3D, SIM, DATA, SCI, SAFE, QA, DEP` (requirements); `CMP` component, `SUB` subsystem/system, `PAR` simulation parameter, `MOD` mathematical model, `SCN` scenario, `TC` test case, `SRC` source, `ASM, DEC, RSK, CON, ISS` registers.
 - Each author receives an **ID block** (numbers N to M) in the task brief. Use numbers only from your block for every ID you define, for all prefixes, unless the brief grants a different range. Before defining, check you are not colliding: `grep -rn "HAK-<PREFIX>-" docs` .
 - A row whose first cell is an ID is a definition. Secondary tables (matrices, mappings, detail tables) must NOT put the ID in the first column; put the name first and the ID in a later column, or the audit reports a duplicate definition.
