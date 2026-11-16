@@ -1,5 +1,10 @@
 # Phase 0 Status Dashboard
 
+| Field | Value |
+|---|---|
+| Doc ID | HAK-DOC-STATUS |
+| Status | Draft |
+
 Last updated: 2026-11-16. Phase 0 overall: **In progress — NOT complete.**
 
 | Stage | Scope | Status | Evidence |

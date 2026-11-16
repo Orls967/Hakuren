@@ -21,3 +21,4 @@ temp/
 *.swo
 __pycache__/
 *.pyc
+.venv/

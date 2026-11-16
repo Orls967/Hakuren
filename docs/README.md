@@ -1,5 +1,10 @@
 # HAKUREN — Phase 0 Documentation
 
+| Field | Value |
+|---|---|
+| Doc ID | HAK-DOC-README |
+| Status | Draft |
+
 **HAKUREN — Nuclear Energy & Reactor Engineering Explorer.** *Understand the Atom. Explore the Energy.*
 
 Phase 0 is documentation only; no application is implemented here.

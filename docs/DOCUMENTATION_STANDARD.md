@@ -1,5 +1,10 @@
 # Documentation Standard
 
+| Field | Value |
+|---|---|
+| Doc ID | HAK-DOC-STANDARD |
+| Status | Draft |
+
 Baseline: TIANEDGE Phase 0 rigor (completeness, consistency, traceability, validation, audit, readiness).
 
 ## 1. Document header
@@ -7,8 +12,8 @@ Every document starts with a title and a metadata table:
 
 | Field | Meaning |
 |---|---|
-| Doc ID | `HAK-DOC-<NAME>` stable, unique |
-| Status | one of the statuses in section 3 |
+| Doc ID row | `HAK-DOC-<NAME>` stable, unique |
+| Status row | one of the statuses in section 3 |
 | Owner stage | Stage number that completes it |
 | Depends on | Doc IDs |
 | Requirements | requirement IDs defined or referenced |
@@ -28,7 +33,10 @@ Every document starts with a title and a metadata table:
 | HAK-QA | testing |
 | HAK-DEP | deployment |
 | HAK-SRC | source registry entry |
-| HAK-ASM / HAK-CON / HAK-RSK / HAK-DEC | assumption / constraint / risk / decision |
+| HAK-ASM, HAK-CON, HAK-RSK, HAK-DEC | assumption, constraint, risk, decision |
+| HAK-CMP, HAK-SUB, HAK-PAR, HAK-MOD, HAK-SCN | component, subsystem, parameter, model, scenario |
+| HAK-TC | test case |
+| HAK-ISS | open issue or specification gap |
 
 IDs are `PREFIX-NNN` (3 digits), never reused, never renumbered.
 
